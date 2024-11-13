@@ -4,7 +4,6 @@ WORKDIR /app
 
 RUN go mod init fullcycle/hello-world
 
-
 COPY . .
 
 RUN go build -o fullcycle
